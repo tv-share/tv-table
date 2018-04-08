@@ -28,7 +28,7 @@ const body = [
 <Table withCheckBox headItems={head}>
     {
         body.map(({ id, name, tel, icon }) => {
-            return <TableRow key={id} id={id} data={[ name, tel, icon ]} />;
+            return <TableRow key={id} id={id} data={[ name, tel ]} />;
         })
     }
 </Table>
