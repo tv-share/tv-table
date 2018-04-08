@@ -20,7 +20,8 @@ class TableRow extends Component {
                 {this.renderCheckBox()}
                 {
                     Object.keys(data).map(k => {
-                        return <td>{data[k]}</td>
+                        console.log(data[k])
+                        return <td key={data[k]}>{data[k]}</td>
                     })
                 }
             </tr>
