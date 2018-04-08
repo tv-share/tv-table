@@ -19,9 +19,8 @@ class TableRow extends Component {
             <tr onClick={onClick} id={id} className={`tv-row${withCheckBox ? " -pointer" : ""}${className ? ` ${className}` : ""}`}>
                 {this.renderCheckBox()}
                 {
-                    Object.keys(data).map(k => {
-                        console.log(data[k])
-                        return <td key={data[k]}>{data[k]}</td>
+                    data.map(d => {
+                        return <td key={d}>{d}</td>
                     })
                 }
             </tr>
@@ -30,12 +29,12 @@ class TableRow extends Component {
 }
 
 TableRow.defaultProps = {
-    data: {}
+    data: []
 };
 
 TableRow.propTypes = {
     id: PropTypes.string.isRequired,
-    data: PropTypes.object.isRequired,
+    data: PropTypes.array.isRequired,
     className: PropTypes.string,
     onClick: PropTypes.func,
     withCheckBox: PropTypes.bool

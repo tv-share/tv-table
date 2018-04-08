@@ -44,7 +44,7 @@ class Workbench extends React.Component {
                 <Table withCheckBox headItems={this.state.HEAD_ITEMS}>
                     {
                         this.state.BODY_ITEMS.map(({ id, name, tel, icon }) => {
-                            return <TableRow key={id} id={id} data={{ name, tel, icon }} />;
+                            return <TableRow key={id} id={id} data={[ name, tel, icon ]} />;
                         })
                     }
                 </Table>

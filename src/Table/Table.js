@@ -20,7 +20,8 @@ class Table extends Component {
 }
 
 Table.defaultProps = {
-    children: []
+    children: [],
+    withCheckBox: false
 };
 
 Table.propTypes = {
