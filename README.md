@@ -53,9 +53,6 @@ className | string |
 withCheckBox | bool | default: false
 
 #### Head Items
-```javascript
-import TableRow from "tv-buttons/dist/TableRow";
-```
 
 **Field** | **Type** | **Description**
 --- | :---: | ---
@@ -72,6 +69,9 @@ onChange | func | onChange method for the check box. Required when _withCheckBox
 checked | bool | checked state for the check box. Required when _withCheckBox_ is _true_.
 
 ### Table Row
+```javascript
+import TableRow from "tv-buttons/dist/TableRow";
+```
 
 **Field** | **Type** | **Description**
 --- | :---: | ---
