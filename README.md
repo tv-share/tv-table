@@ -1,6 +1,7 @@
 # tv-table
 
 A ready-to-use table component
+
 ```bash
 // install
 npm i -S @thevelops/tv-table
