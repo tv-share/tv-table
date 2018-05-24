@@ -43,7 +43,11 @@ const body = [
 ## Docs
 ### Table
 ```javascript
-import Table from "tv-buttons/dist/Table";
+import Table from "@thevelops/tv-table/dist/Table";
+```
+
+```javascript
+@import "path/to/node_modules/@thevelops/tv-table/dist/Table/style";
 ```
 
 **Field** | **Type** | **Description**
@@ -71,7 +75,11 @@ checked | bool | checked state for the check box. Required when _withCheckBox_ i
 
 ### Table Row
 ```javascript
-import TableRow from "tv-buttons/dist/TableRow";
+import TableRow from "@thevelops/tv-table/dist/TableRow";
+```
+
+```javascript
+@import "path/to/node_modules/@thevelops/tv-table/dist/TableRow/style";
 ```
 
 **Field** | **Type** | **Description**
