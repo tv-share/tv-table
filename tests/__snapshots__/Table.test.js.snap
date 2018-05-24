@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctely - with checkbox 1`] = `
+<table
+  className="tv-table"
+>
+  <thead
+    className="tv-thead"
+  >
+    <tr>
+      <th
+        className="tv-checkbox"
+      >
+        <input
+          checked={undefined}
+          onChange={undefined}
+          type="checkbox"
+        />
+      </th>
+      <th
+        id="name"
+        onClick={undefined}
+      >
+        NOME
+      </th>
+      <th
+        id="tel"
+        onClick={undefined}
+      >
+        TELEFONE
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr
+      className="tv-row -pointer"
+      id="1"
+      onClick={undefined}
+    >
+      <td
+        className="tv-checkbox"
+      >
+        <input
+          type="checkbox"
+        />
+      </td>
+      <td>
+        Thiago Loddi
+      </td>
+      <td>
+        123
+      </td>
+    </tr>
+    <tr
+      className="tv-row -pointer"
+      id="2"
+      onClick={undefined}
+    >
+      <td
+        className="tv-checkbox"
+      >
+        <input
+          type="checkbox"
+        />
+      </td>
+      <td>
+        Andre Loddi
+      </td>
+      <td>
+        456
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`renders correctely - without checkbox 1`] = `
+<table
+  className="tv-table"
+>
+  <thead
+    className="tv-thead"
+  >
+    <tr>
+      <th
+        id="name"
+        onClick={undefined}
+      >
+        NOME
+      </th>
+      <th
+        id="tel"
+        onClick={undefined}
+      >
+        TELEFONE
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr
+      className="tv-row"
+      id="1"
+      onClick={undefined}
+    >
+      <td>
+        Thiago Loddi
+      </td>
+      <td>
+        123
+      </td>
+    </tr>
+    <tr
+      className="tv-row"
+      id="2"
+      onClick={undefined}
+    >
+      <td>
+        Andre Loddi
+      </td>
+      <td>
+        456
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;

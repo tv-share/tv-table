@@ -1,0 +1,18 @@
+{
+    "headItems": [
+        { "id": "name", "label": "NOME" },
+        { "id": "tel", "label": "TELEFONE" }
+    ],
+    "bodyItems": [
+        {
+            "id": "1",
+            "name": "Thiago Loddi",
+            "tel": "123"
+        },
+        {
+            "id": "2",
+            "name": "Andre Loddi",
+            "tel": "456"
+        }
+    ]
+}
