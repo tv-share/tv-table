@@ -5,8 +5,8 @@ class TableRow extends Component {
 
 	renderCheckBox() {
 		if(this.props.withCheckBox) {
-            if(!this.props.checkboxOptions) throw new Error("Parameter 'checkboxOptions' is required when 'withCheckBox' is true.");
-            const { id, checkboxOptions: { checked, onChange }} = this.props;
+			if(!this.props.checkboxOptions) throw new Error("Parameter 'checkboxOptions' is required when 'withCheckBox' is true.");
+			const { id, checkboxOptions: { checked, onChange }} = this.props;
 
 			return (
 				<td className="tv-checkbox">
