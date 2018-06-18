@@ -1,6 +1,6 @@
 {
     "name": "@thevelops/tv-table",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A React table component",
     "main": "index.js",
     "scripts": {
@@ -9,7 +9,7 @@
         "dev": "parcel -d ./dev/build dev/index.html",
         "build": "gulp build",
         "lint:fix": "gulp lint:fix",
-        "release": "npm publish -access=public"
+        "release": "npm publish --access=public"
     },
     "author": "theVelops <contato@thevelops.com> (http://www.thevelops.com)",
     "license": "ISC",
