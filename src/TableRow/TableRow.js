@@ -6,11 +6,11 @@ class TableRow extends Component {
 	renderCheckBox() {
 		if(this.props.withCheckBox) {
             if(!this.props.checkboxOptions) throw new Error("Parameter 'checkboxOptions' is required when 'withCheckBox' is true.");
-            const { id, checkboxOptions: { selected, onChange }} = this.props;
+            const { id, checkboxOptions: { checked, onChange }} = this.props;
 
 			return (
 				<td className="tv-checkbox">
-					<input id={id} checked={selected} onChange={onChange} type="checkbox" />
+					<input id={id} checked={checked} onChange={onChange} type="checkbox" />
 				</td>
 			);
 		}

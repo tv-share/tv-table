@@ -62,7 +62,7 @@ class TableExample extends React.Component {
                         this.state.BODY_ITEMS.map(({ id, name, tel, icon }) => {
                             return <TableRow
                                 data={[name, tel, icon]}
-                                checkboxOptions={{ selected: this.state.SELECTED_ROWS.includes(id), onChange: this.handleCheckboxChange.bind(this) }}
+                                checkboxOptions={{ checked: this.state.SELECTED_ROWS.includes(id), onChange: this.handleCheckboxChange.bind(this) }}
                                 onClick={this.handleCheckboxChange.bind(this)}
                                 id={id}
                                 key={id} />;

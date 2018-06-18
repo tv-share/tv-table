@@ -26,8 +26,8 @@ import Table from "@thevelops/tv-table/dist/Table";
 
 **Field** | **Type** | **Description**
 --- | :---: | ---
-headItems | array | (required) array of [head items](head-items) objects
-headOptions | array | array of [head options](head-options) objects
+headItems | array | (required) array of [head items](#head-items)
+headOptions | array | array of [head options](#head-options)
 className | string |
 withCheckBox | bool | default: false
 
@@ -69,7 +69,7 @@ onClick | func |
 
 **Field** | **Type** | **Description**
 --- | :---: | ---
-selected | bool | required
+checked | bool | required
 onChange | func | required
 
 
