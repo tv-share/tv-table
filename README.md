@@ -7,7 +7,7 @@ A ready-to-use table component
 npm i -S @thevelops/tv-table
 ```
 ## How to
-Example [here]("./examples/TableExample.js").
+Example [here]("examples/TableExample.js").
 
 
 ## Components
@@ -62,7 +62,10 @@ id | string | (required)
 data | array | (required)
 className | string |
 onClick | func |
-checkboxOptions | object | required when _withCheckBox_ is _true_
+[checkboxOptions](#checkboxOptions) | object | required when _withCheckBox_ is _true_
+
+
+#### chekboxOptions
 
 **Field** | **Type** | **Description**
 --- | :---: | ---
