@@ -7,7 +7,7 @@ A ready-to-use table component
 npm i -S @thevelops/tv-table
 ```
 ## How to
-Example [here]("examples/TableExample.js").
+Example [here](/examples/TableExample.js).
 
 
 ## Components
