@@ -7,33 +7,7 @@ A ready-to-use table component
 npm i -S @thevelops/tv-table
 ```
 ## How to
-```javascript
-
-const head = [
-    { "id": "name", "label": "NOME" },
-    { "id": "tel", "label": "TELEFONE" }
-];
-const body = [
-    {
-        "id": "1",
-        "name": "John Smith",
-        "tel": "123"
-    },
-    {
-        "id": "2",
-        "name": "Smith Johnson",
-        "tel": "456"
-    }
-];
-
-<Table withCheckBox headItems={head}>
-    {
-        body.map(({ id, name, tel, icon }) => {
-            return <TableRow key={id} id={id} data={[ name, tel ]} />;
-        })
-    }
-</Table>
-```
+Example [here](/examples/TableExample.js).
 
 
 ## Components
@@ -52,8 +26,8 @@ import Table from "@thevelops/tv-table/dist/Table";
 
 **Field** | **Type** | **Description**
 --- | :---: | ---
-headItems | array | (required) array of [head items](head-items) objects
-headOptions | array | array of [head options](head-options) objects
+headItems | array | (required) array of [head items](#head-items)
+headOptions | array | array of [head options](#head-options)
 className | string |
 withCheckBox | bool | default: false
 
@@ -88,6 +62,16 @@ id | string | (required)
 data | array | (required)
 className | string |
 onClick | func |
+[checkboxOptions](#checkboxOptions) | object | required when _withCheckBox_ is _true_
+
+
+#### chekboxOptions
+
+**Field** | **Type** | **Description**
+--- | :---: | ---
+checked | bool | required
+onChange | func | required
+
 
 ## Development
 For delevepment checkout [this section](https://github.com/shareThevelopment/tv-handbook/Development).
