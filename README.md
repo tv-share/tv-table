@@ -36,7 +36,7 @@ withCheckBox | bool | default: false
 **Field** | **Type** | **Description**
 --- | :---: | ---
 id | string | (required)
-label | string |
+label | string or object |
 onClick | func |
 
 #### Head Options

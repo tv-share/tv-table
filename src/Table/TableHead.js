@@ -42,7 +42,10 @@ TableHead.defaultProps = {
 TableHead.propTypes = {
 	items: PropTypes.arrayOf(PropTypes.shape({
 		id: PropTypes.string.isRequired,
-		label: PropTypes.string,
+		label: PropTypes.oneOfType([
+			PropTypes.string,
+			PropTypes.object
+		]),
 		onClick: PropTypes.func
 	})).isRequired,
 	options: PropTypes.shape({
